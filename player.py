@@ -8,10 +8,10 @@ PLAYER_SHOOT_COOLDOWN = 0.3
 
 class Player(CircleShape):
     def __init__(self, x, y):
-        # Initialize the parent class properly with all required parameters
+        
         CircleShape.__init__(self, x, y, PLAYER_RADIUS)
         
-        # Player-specific properties
+       
         self.rotation = 0
         
         self.cooldown_timer = 0
